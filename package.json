@@ -1,0 +1,32 @@
+{
+  "name": "pnft-transfer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "transfer.js",
+  "scripts": {
+    "start": "node transfer.js",
+    "transfer": "node transfer.js"
+  },
+  "keywords": [
+    "solana",
+    "metaplex",
+    "nft",
+    "core-asset",
+    "spl-token",
+    "transfer",
+    "blockchain"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Transfer Solana assets including Metaplex Core Assets and traditional SPL tokens",
+  "dependencies": {
+    "@metaplex-foundation/mpl-core": "^1.7.0",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@metaplex-foundation/umi": "^1.4.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^1.4.1",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/web3.js": "^1.95.4",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
